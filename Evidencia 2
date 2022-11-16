@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <title>Evidencia 1</title>
+    <style>
+        div {
+          border: 1px solid black;
+          margin-top: 50px;
+          margin-bottom: 50px;
+          margin-right: 150px;
+          margin-left: 80px;
+          background-color: hsla(186, 56%, 83%, 0.658);
+        }
+        </style>
+</head>
+<body>
+    <div>
+        <header>
+            <h1> Mi autobiografia</h1>
+            <h2> Emilio Eduardo Rodriguez Gonzalez</h2>
+        </header>
+        
+    <div>
+                 
+    <section>
+        <article>
+            <p>Este blog es parte de una evidencia de la materia fundamentos del desarrollo web la cual tiene como objetivo realizar una autobiografia plasmada en una pagina web.</p>
+        </article>
+        <article>
+            <h2>Sobre mi</h2>
+            <p>Hola mi nombre es Emilio Eduardo Rodriguez Gonzalez naci un 24 de agosto del 2002 en la ciudad de Monterrey Nuevo Leon, mi padre se llama Gonzalo Rodriguez y mi madre Macrina Gonzalez, 
+            somos tres hermanos de los cuales yo soy el tercero.</p>
+            <p align="center"><img src="bruno.jpg" alt="matematicas" width="100%" height="1000">    
+        </article>
+        <article>
+            
+            <p>Creci en la pequeña ciudad de Sabinas Hidalgo, mis estudios primarios los realice en la escuela primaria "Ford #103" terminando mi instruccion primaria en el año 2014.
+            Ingrese a la escuela secundaria Josefina Valadez cuando tenia 13 años, estudie los 3 años y sali graduado en el año 2017. En el tiempo que estuve estudiando en esa secundaria se me inculcaron habitos de buena imagen ya que eran muy estrictos con la vestimenta y el comportamiento.</p>    
+        </article>
+        <article>
+            
+            <p>Comence a estudiar en la preparatoria 5 en el año 2017, En el cual personalmente fue mi etapa con mi peor desempeño academico.</p>    
+        </article>
+        <article>
+            
+            <p>Actualmente estoy estudiando en la Universidad Autonoma de Nuevo Leon cursando la licenciatura en tecnologias de la informacion.</p>    
+        </article>  
+        <article>
+            <h2>Hobbies</h2>
+            <p>Tengo diversos hobbies u ocupaciones que me gusta hacer en mis tiempos libres, uno de ellos siempre ha sido el deporte, desde chico siempre me ha gustado jugar al futbol, recuerdo que siempre que jugaba torneos con mi hermano quedabamos campeones, cossa que con el tiempo dejamos de hacer y se fue perdiendo esa magia.</p>
+            <p align="center"><img src="fut.jpg" alt="matematicas" width="100%" height="1000">
+                <p>Tambien me gusta muchisimo el hecho de crear nuevas cosas, desde chico he tenido ese don de crear cosas nuevas, lo he aplicado para todo tipo de situaciones, ya sea para realizar una tarea, crear musica, jugar de alguna manera, iniciar con nuevas rutinas la semana, etc.</p>
+                <p align="center"><img src="Familia.jpg" alt="matematicas" width="100%" height="500">       
+        </article>  
+        <article>
+            <p>Asi es el municipio donde actualmente resido, Sabinas Hidalgo en el estado de Nuevo Leon</p>
+            <p align="center"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d28564.171671495646!2d-100.17570611415637!3d26.503348644836688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2smx!4v1667797372993!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                
+        </article>   
+    <article>  
+        <h2>Cambio de chico a grande en mi persona</h2>
+    <p>En este caso JavaScript cambia el valor del atributo src de una imagen</p>
+        <p align="margin-right"><button onclick="document.getElementById('myImage').src='Pequeños'">Chico</button>
+
+    <p align="center"><img src="Pequeños.jpg" alt="matematicas" width="100%" height="800">
+
+        <p align="margin-left"><button onclick="document.getElementById('myImage').src='Grandes'">Grande</button>
+    </article>   
+
+    </section>
+    <footer>
+        Derechos Reservados  Emilio Eduardo Rodriguez Gonzalez&copy; 2022
+    </footer>    
+    
+</body>
+</html>
+
+body{
+    background: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+header {
+    background: rgb(226, 57, 45);
+    height: 100px;
+    width: 100%;
+    margin: 0%;
+    text-align: center;
+    
+
+}
+
+nav {
+    background: beige;
+    height: 50px;
+    border-bottom: 2px solid bisque
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+    margin: 10px;
+    line-height: 30px;
+}
+
+footer {
+    background: bisque;
+    color: black;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
