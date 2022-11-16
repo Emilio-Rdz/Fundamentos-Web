@@ -60,3 +60,41 @@
     
 </body>
 </html>
+
+body{
+    background: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+header {
+    background: rgb(226, 57, 45);
+    height: 100px;
+    width: 100%;
+    margin: 0%;
+    text-align: center;
+    
+
+}
+
+nav {
+    background: beige;
+    height: 50px;
+    border-bottom: 2px solid bisque
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+    margin: 10px;
+    line-height: 30px;
+}
+
+footer {
+    background: bisque;
+    color: black;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+
